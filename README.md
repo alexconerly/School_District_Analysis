@@ -16,7 +16,7 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 ----------------------------
 ## Results
 
-### District Summary:
+### District Summary Affects:
 
 - The affect on the district summary is demonstrated by the following two dataframes.  The first dataframe represents the original summaries of all the district-wide metrics.  The second dataframce represents the summarized metrics following the inclusion of NaN values.  As you can see, the NaN values caused the average math score to drop .1 points, the average reading score to remain the same, the percent passing math to drop by .2, the percent passing reading to drop by .3 and the percent overall passing to drop by .1 points.
  
@@ -24,20 +24,23 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 
     ![](Resources/district_summary_df_new_with%20NaNs.png)
 
-### School Summary:
+### School Summary Affects:
 
-The following image shows the tail-end of the school summary dataframe prior to the replacement of data for ninth graders:
+The following image shows the "tail-end" of the school summary dataframe prior to the replacement of ninth-grade data with NaN values:
 
    ![](Resources/school_summary_df_original.png)
 
-- The affect on the school summary was as follows:  When the DataFrame included the rows for the 9th graders but their test scores were replaced with NaN values, their percentages for reading, math, and overall passing were in the range of the 60s.  This is because the total students in the data remained at 39,170, just as before the NaN values were introduced, but their values were no longer counted, resulting in a much lower percentage.  This can be seen by the following dataframe screenshot:
+- When the DataFrame included the rows for the 9th graders but their test scores were replaced with NaN values, their percentages for reading, math, and overall passing were in the range of the 60s.  This is because the total students in the data remained at 39,170, just as before the NaN values were introduced, but their values were no longer counted, resulting in a much lower percentage.  This can be seen by the following dataframe screenshot:
 
     ![](Resources/school_summary_df_NaN.png)
 
-As a result, this DataFrame did not adequately represent the rest of the students for Thomas High School.  Therefore, a new dataframe was created to only include 10th, 11th, and 12th graders.  Once this dataframe was updated to more adequately represent the scores of Thomas High School, the following results were obtained:
+From this dataframe, in comparison to the original, it is clear the data for Thomas High School test score percentages experienced a drastic reduction as a result of the NaN values.  The average math and reading scores stayed relatively unchanged, the % passing math decreased by 26.4%, the % passing reading decreased by 27.6%.
+
+However, this DataFrame did not adequately represent the rest of the students for Thomas High School.  Therefore, a new dataframe was created to only include 10th, 11th, and 12th graders.  Once this dataframe was updated to more adequately represent the other grade scores of Thomas High School, the following results were obtained:
+   
    ![](Resources/Use_for_NAN.png)
 
-In comparison to the original dataframe, the average math score dropped by about 0.1 point and the average reading score remained relatively static.  However, the percent passing math, percent passing reading, and the percent of students overall passing dropped about 1.1 percent points each.
+By comparing this result to the original dataframe, the average math score dropped by about 0.1 point and the average reading score remained relatively static.  However, the percent passing math, percent passing reading, and the percent of students overall passing dropped about 1.1 percent points each.
 
 
 ----------------------------
