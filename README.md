@@ -39,7 +39,6 @@ The following image shows the "tail-end" of the school summary dataframe prior t
    
    ![](Resources/Use_for_NAN.png)
 
--
 
 - Thus, by replacing Thomas High School's math and reading scores with NaN values for ninth-graders, it appears this had the affect of reducing the scores for Thomas High School percentage performance results while leaving the rest of the school data intact.  However, once a new dataframe was created to only include data for the tenth, eleventh, and twefth grade students of Thomas High School, the percentages were recalibrated and became more similar to the rest of the district-wide data.
 
