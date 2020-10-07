@@ -20,7 +20,7 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 
 - The affect on the district summary is demonstrated by the following two dataframes.  The first dataframe represents the original summaries of all the district-wide metrics.  The second dataframce represents the summarized metrics following the inclusion of NaN values.  As you can see, the NaN values caused the average math score to drop .1 points, the average reading score to remain the same, the percent passing math to drop by .2, the percent passing reading to drop by .3, and the percent overall passing to drop by .1 point.
  
-     ![](Resources/District_OG.png)
+     ![](Resources/District_OG_one_dec.png)
 
     ![](Resources/District_NAN.png)
 
