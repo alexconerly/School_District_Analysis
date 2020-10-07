@@ -21,17 +21,16 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 
     ![](Resources/district_summary_df_new_with%20NaNs.png)
 
-- The affect on the school summary is demonstrated by the following dataframes. The first DataFrame highlights a section of the the original school summary dataframe and the bottom DataFrame highlights a section of the updated school summary DataFrame which corresponds to the existence of NaN values.  As you can see by comparing the DataFrames, the average math and reading scores stayed relatively unchanged, the percent passing math decreased by 26.4%, the % passing reading decreased by 27.6%.
-The % overall passing decreased by 26.0%.
+- The affect on the school summary is demonstrated by the following dataframes. The first DataFrame highlights a section of the the original school summary dataframe and the bottom DataFrame highlights a section of the updated school summary DataFrame which corresponds to the existence of NaN values.  As you can see by comparing the DataFrames, the average math and reading scores stayed relatively unchanged, the percent passing math decreased by about 26.4%, the % passing reading decreased by 27.6%.  The percent overall passing decreased by 26.0%.
 - 
 ----------------------------
 
 ![](Resources/school_summary_df_original.png)
 
-![](Resources/school_summary_df_NaN.png)
+![](Resources/school_summary_df_NaNs.png)
 
 
-- By replacing Thomas High School's math and reading scores with NaN values for ninth-graders, it appears this only really affected Thomas High School.
+- By replacing Thomas High School's math and reading scores with NaN values for ninth-graders, it appears this only significantly affected Thomas High School's perfomance results.  In contrast, the overall affect on the district-wide data was of only minor significance comparatively, as the district summary revealed.
 
 --------------------------
 
@@ -39,8 +38,8 @@ The % overall passing decreased by 26.0%.
 
 As a result of the comparative data analysis, the replacement of ninth-grade test scores for "Thomas High School" with NaN values certainly altered the district-wide metrics results.  However, since there were only 461 NaN values replaced in the dataset out of 39,170 total students, the averages and percentages remained relatively representative of the district-wide metrics even after the second analysis.  Thus, it appears the results of the replacement of 461 potentially misrepresentative values with NaN values served well to succesfully safeguarded the datasets from potential misrepresentation.
 
-Four major changes
+Four major changes 
 
 
 
-Nevertheless, four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Nevertheless, four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs include the significant decrease
