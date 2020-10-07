@@ -36,7 +36,7 @@ The following image shows the "tail-end" of the school summary dataframe prior t
 
 -However, this DataFrame did not adequately represent the rest of the students for Thomas High School.  Hence, a new dataframe was also created for Thomas High School to only include 10th, 11th, and 12th graders.  Once this dataframe was updated to more adequately represent the other grade scores of Thomas High School, the following results were obtained using the .loc method (see codes and dataframe below).  By comparing this result to the original dataframe, the average math score and average reading score remained relatively unchanged.  The percentage math dropped just about .1 point, the percent reading dropped about 0.3, and the percent overall dropped about 0.3 as well.  It is worth noting, that to calculate the averages, the metric for total students was kept the same even when the calculations were based on tenth, eleventh, and twelfth graders alone for Thomas High School (omitting ninth graders).
 
-
+   ![](Resources/Code_for_readme.png)
    
    ![](Resources/Use_for_NAN.png)
 
