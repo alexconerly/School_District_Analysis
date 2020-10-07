@@ -25,9 +25,9 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 - 
 ----------------------------
 
-![](Resources/school_summary_df_original.png)
+![](Resources/Use_for_OG.png)
 
-![](Resources/school_use_for_NAN.png)
+![](Resources/Use_for_NAN.png)
 
 
 - By replacing Thomas High School's math and reading scores with NaN values for ninth-graders, it appears this only significantly affected Thomas High School's perfomance results.  In contrast, the overall affect on the district-wide data was of only minor significance comparatively, as the district summary revealed.
