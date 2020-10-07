@@ -43,7 +43,4 @@ Four major changes
 
 
 
-One interesting observation includes the fact that even though the 9th-grate students of Thomas High School were suspected of academic dishonesty, apparently replacing their potentially erroneous test scores with NaN values actually increased the overall percentage of the overall metrics.  This suggests that even if many of these students manipulated the data to improve their reported scores, the overall scores of these students were still lower than the district-wide averages.  Thus, ridding the dataset from ninth-grade test reports increased the averages and percentages of the district-wide metrics overall.
-
-
 Nevertheless, four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
