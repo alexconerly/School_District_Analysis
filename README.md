@@ -26,19 +26,20 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 
 ### School Summary:
 
--The school summary for the original data (prior to replacing 9th grade test scores with NaN values for Thomas High School) was as follows:
+The following image shows the tail-end of the school summary dataframe prior to the replacement of data for ninth graders:
 
-   ![](Resoureces/school_summary_df_original.png)
+   ![](Resources/school_summary_df_original.png)
 
 - The affect on the school summary was as follows:  When the DataFrame included the rows for the 9th graders but their test scores were replaced with NaN values, their percentages for reading, math, and overall passing were in the range of the 60s.  This is because the total students in the data remained at 39,170, just as before the NaN values were introduced, but their values were no longer counted, resulting in a much lower percentage.  This can be seen by the following dataframe screenshot:
 
     ![](Resources/school_summary_df_NaN.png)
 
 As a result, this DataFrame did not adequately represent the rest of the students for Thomas High School.  Therefore, a new dataframe was created to only include 10th, 11th, and 12th graders.  Once this dataframe was updated to more adequately represent the scores of Thomas High School, the following results were obtained:
-   !
+   ![](Resources/Use_for_NAN.png)
 
-In comparison to the original dataframe, the average math score dropped by about 0.1 point and the average reading score for the updated dataset remained relatively unchanged.  However, the percent passing math, percent passing reading, and the percent of students overall passing dropped about 1.1 percentage points each.
-- 
+In comparison to the original dataframe, the average math score dropped by about 0.1 point and the average reading score remained relatively static.  However, the percent passing math, percent passing reading, and the percent of students overall passing dropped about 1.1 percent points each.
+
+
 ----------------------------
 
 - By replacing Thomas High School's math and reading scores with NaN values for ninth-graders, it appears this had the affect of reducing the scores for Thomas High School.  Of course,  only significantly affected Thomas High School's perfomance results.  In contrast, the overall affect on the district-wide data was of only minor significance comparatively, as the district summary revealed.
