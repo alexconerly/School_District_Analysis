@@ -21,7 +21,7 @@ Software:  Python 3.8.3, Visual Studio Code 1.49.2
 
     ![](Resources/district_summary_df_new_with%20NaNs.png)
 
-- The affect on the school summary is demonstrated by the following dataframes. The first DataFrame highlights a section of the the original school summary dataframe and the bottom DataFrame highlights a section of the updated school summary DataFrame which corresponds to the existence of NaN values.  As you can see by comparing the DataFrames, the average math and reading scores stayed relatively unchanged, the % passing math decreased by 26.4%, the % passing reading decreased by 27.6%.
+- The affect on the school summary is demonstrated by the following dataframes. The first DataFrame highlights a section of the the original school summary dataframe and the bottom DataFrame highlights a section of the updated school summary DataFrame which corresponds to the existence of NaN values.  As you can see by comparing the DataFrames, the average math and reading scores stayed relatively unchanged, the percent passing math decreased by 26.4%, the % passing reading decreased by 27.6%.
 The % overall passing decreased by 26.0%.
 - 
 ----------------------------
