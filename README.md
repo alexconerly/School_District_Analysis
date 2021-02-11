@@ -1,5 +1,10 @@
 # School_District_Analysis
+
+![](Resources/classroom_pub_dom.jpeg)
+
 -----------------------------
+
+
 ## Project Overview
 
 The purpose of this analysis was to assist a client named "Maria" in analyzing data on student funding and standardized test scores for a district of fifteen schools to determine what affects replacing ninth-grade math and reading scores for "Thomas High School" with "NaN" values would have on the district-wide analysis.  The motivation for this replacement procedure was to protect the district-wide analysis from potential misrepresentation, considering the ninth-grade students of "Thomas High School" had been suspected of academic dishonesty on their test scores.
