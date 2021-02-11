@@ -1,9 +1,7 @@
 # School_District_Analysis
-
-![](Resources/classroom_pub_dom.jpeg)
-
 -----------------------------
 
+![](Resources/classroom_dark.jpeg)
 
 ## Project Overview
 
